@@ -1,5 +1,4 @@
-//your JS code here. If required.
-        const circles = document.querySelectorAll('.circle');
+const circles = document.querySelectorAll('.circle');
 const prevButton = document.getElementById('prev');
 const nextButton = document.getElementById('next');
 
@@ -43,4 +42,3 @@ function update() {
     nextButton.disabled = false;
   }
 }
-
