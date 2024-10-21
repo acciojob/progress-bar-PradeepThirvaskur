@@ -29,14 +29,14 @@
 }
 #prev,#next {
   padding: 10px 20px;
-  margin-left:7rem;
+  margin-left:2rem;
   background-color: #3498db;
   border-radius: 15%;
 }
 .circle::before {
     content: '';
     position: absolute;
-    width:150px; /* adjust this value based on your design */
+    width:50px; /* adjust this value based on your design */
     height: 2px;
     background: #ddd;
     top: 50%;
